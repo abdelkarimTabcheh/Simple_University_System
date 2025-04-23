@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>University Student Management System</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add New Student</h2>
+      <form id="studentForm">
+        <input type="text" id="studentName" placeholder="Student Name" required />
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <section class="form-section">
+      <h2>Link Student to University</h2>
+      <form id="linkForm">
+        <select id="studentSelect" required>
+          <option value="">Select Student</option>
+        </select>
+        <select id="universitySelect" required>
+          <option value="">Select University</option>
+        </select>
+        <button type="submit">Link</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Student List</h2>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>University</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Ali",
+    "university_id": null
+  },
+  {
+    "id": 2,
+    "name": "Maya",
+    "university_id": 3
+  },
+  {
+    "id": 3,
+    "name": "Ahmad",
+    "university_id": null
+  },
+  {
+    "id": 4,
+    "name": "Toni",
+    "university_id": 2
+  }
+]
